@@ -1,4 +1,8 @@
-package fr.efrei.springrag.repository;
+package fr.efrei.rag.repository;
 
-public class DocumentRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import fr.efrei.rag.domain.Document;
+
+public interface DocumentRepository extends JpaRepository<Document, Long>{
 }
