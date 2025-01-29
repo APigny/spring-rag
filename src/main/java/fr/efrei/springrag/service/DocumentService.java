@@ -1,9 +1,9 @@
-package fr.efrei.rag.service;
+package fr.efrei.springrag.service;
 
 import org.springframework.stereotype.Service;
 
-import fr.efrei.rag.domain.Document;
-import fr.efrei.rag.repository.DocumentRepository;
+import fr.efrei.springrag.domain.Document;
+import fr.efrei.springrag.repository.DocumentRepository;
 
 @Service
 public class DocumentService {

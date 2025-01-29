@@ -1,4 +1,4 @@
-package fr.efrei.rag.web.rest;
+package fr.efrei.springrag.web.rest;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.efrei.rag.domain.Document;
-import fr.efrei.rag.service.DocumentService;
+import fr.efrei.springrag.domain.Document;
+import fr.efrei.springrag.service.DocumentService;
 
 @RestController
 public class DocumentResource {

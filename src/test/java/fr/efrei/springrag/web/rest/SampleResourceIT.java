@@ -11,7 +11,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@SpringBootTest(classes = { fr.efrei.rag.RagApplication.class })
+@SpringBootTest(classes = { fr.efrei.springrag.RagApplication.class })
 @AutoConfigureMockMvc
 public class SampleResourceIT {
 

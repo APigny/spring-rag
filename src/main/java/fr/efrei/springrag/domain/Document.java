@@ -1,4 +1,4 @@
-package fr.efrei.rag.domain;
+package fr.efrei.springrag.domain;
 import jakarta.persistence.*;
 
 @Entity
